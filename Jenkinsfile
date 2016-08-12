@@ -1,5 +1,7 @@
 node('docker') {
 	
+	checkout scm;
+
 	sh "ls -lR"
 
 	sh "ls 1"
