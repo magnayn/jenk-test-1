@@ -17,6 +17,8 @@ def call() {
 def mkBuildEnv() {
 	echo "yay";
 
+	versionString = "BIG MAC";
+
 	return this;
 }
 
