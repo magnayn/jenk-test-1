@@ -8,7 +8,7 @@ node('docker') {
 	echo "b";
 	echo "${x}";
 	echo "c";
-	def y = x.mkBuildEnv();
+	def y = x();
 	echo "d";
 	echo "${y.versionString}";
 
