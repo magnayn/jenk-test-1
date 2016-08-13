@@ -13,3 +13,9 @@ def call() {
 
 	return this;
 }
+
+def mkBuildEnv() {
+	echo "yay";
+
+	return this;
+}
