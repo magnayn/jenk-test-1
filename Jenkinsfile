@@ -2,6 +2,15 @@ node('docker') {
 	
 	checkout scm;
 
+	def x = load 'jenkins/buildenv.groovy';
+
+	def y = x();
+
+	echo "${y.versionString}";
+
+	echo "${versionString}";
+	
+
 	sh "ls -lR"
 
 	sh "ls 1"
